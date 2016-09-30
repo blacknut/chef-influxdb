@@ -16,8 +16,8 @@ depends 'nodejs', '~> 2.4'
 depends 'chef_handler'
 
 # For apt and yum repositories
-depends 'apt', '>= 3.0'
-depends 'yum', '>= 3.0'
+depends 'apt', '~> 2.7'
+depends 'yum', '~> 3.6'
 
 # For compatibility with 12.X versions of Chef
 depends 'compat_resource'
